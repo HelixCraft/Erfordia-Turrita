@@ -1,0 +1,5 @@
+- mobile mode
+- korect images
+- corekt texts
+- corekt questions
+-

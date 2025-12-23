@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Erfordia Turrita</title>
+    <!-- Der Titel wird dynamisch gesetzt -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Erfordia Turrita</h1>
+        <p>Erfurts beeindruckende Türme & Kirchen</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="subpage-content">
+        <h2 id="church-name">Kirche wird geladen...</h2>
+
+        <div id="church-banner" class="banner-image">
+          <!-- Banner-Bild wird hier eingefügt -->
+        </div>
+
+        <div class="content-wrapper">
+          <div id="side-images" class="side-image-gallery">
+            <!-- Seitliche Bilder werden hier eingefügt -->
+          </div>
+          <div id="church-text" class="main-text">
+            <!-- Textabsätze werden hier eingefügt -->
+          </div>
+        </div>
+
+        <!-- Quiz-Container wird dynamisch gefüllt -->
+        <form id="quiz-container" class="quiz-form"></form>
+
+        <!-- Video-Container, standardmäßig versteckt -->
+        <div id="video-container" class="video-wrapper hidden">
+          <iframe
+            id="youtube-video"
+            width="560"
+            height="315"
+            src=""
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <a href="index.html" class="back-link">Zurück zur Startseite</a>
+      </div>
+    </main>
+
+    <!-- Lightbox-Struktur für vergrößerte Bilder -->
+    <div id="lightbox" class="lightbox hidden">
+      <span class="lightbox-close">&times;</span>
+      <img class="lightbox-content" id="lightbox-img" />
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Erfordia Turrita. Alle Rechte vorbehalten.</p>
+      </div>
+    </footer>
+
+    <!-- Wichtig: Erst die Daten, dann das Skript laden -->
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

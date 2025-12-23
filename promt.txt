@@ -1,0 +1,108 @@
+ich benötige eine promt zu erstellung einer website für einen coding agent, er soll index.html css und js machen, es geht um eine webstite für erfordia turita in erfut, es gib eine homepage mit 10 kirchen:
+1.Thomaskirche 
+2.Christuskirche 
+3.Johannisturm
+4 Kaufmannskirche
+5.Agidienkirche
+6.Regierkirche
+7.Barfusserkirche
+ 8 Wigbertikirche
+  9.Bartholomausturm
+10.Predigerkirche
+
+
+zu jeder gib es dan eine infotext (einen platzhalter text erstmal einfügen) + zwei drei bilder (plazhalterbider mit namen: test1 test2 test3)
+die homepage soll erstmal schlicht sein (mit allem was eine homepage so braucht), aber halt eine liste mit den verschiedenen kirchen + image dessen (sinvoll formatiert) und wenn man darauf clickt kommt man auf die jeweilige seite der kirche
+
+
+
+
+
+
+
+**Erstelle eine vollständige Website mit HTML, CSS und JavaScript.**
+Die Website heißt **„Erfordia Turita – Erfurts Türme & Kirchen“**.
+Erstelle folgende Dateien:
+>
+* `index.html`
+* `style.css`
+* `script.js`
+* sowie **10 Unterseiten** (jeweils eine eigene HTML-Datei) für jede der folgenden Kirchen/Türme:
+>
+  1. Thomaskirche
+  2. Christuskirche
+  3. Johannisturm
+  4. Kaufmannskirche
+  5. Agidienkirche
+  6. Reglerkirche
+  7. Barfüßerkirche
+  8. Wigbertikirche
+  9. Bartholomäusturm
+  10. Predigerkirche
+>
+## **🔷 Allgemeine Struktur**
+>
+* Die Website soll **schlicht**, modern und übersichtlich sein.
+* Verwende Header, Footer, Navigation.
+* Eine klare, helle Farbgestaltung.
+* Mobile responsive Layout.
+>
+## **🔷 Startseite (index.html)**
+>
+* Titel: **Erfordia Turita – Erfurts Kirchen & Türme**
+* Kurzer Einleitungstext (Platzhalter).
+* Eine **übersichtliche Liste der 10 Kirchen**, jede als:
+>
+  * Bild (Platzhalter: `test1.jpg`)
+  * Name der Kirche
+  * Klickbar → öffnet die jeweilige Unterseite
+* Layout: Karten/Boxen oder Kachel-Grid, sauber formatiert.
+>
+## **🔷 Unterseiten (je Kirche / Turm)**
+>
+Für jede Kirche/Turm eine Datei, z. B. `thomaskirche.html`.
+>
+Inhalt:
+>
+* Überschrift = Name der Kirche
+* **Infotext** (Platzhalter, 2–3 Absätze Lorem Ipsum)
+* **2–3 Bilder** (Platzhalter)
+>
+  * `test1.jpg`
+  * `test2.jpg`
+  * `test3.jpg`
+* Button oder Link „Zurück zur Startseite“
+>
+## **🔷 CSS (style.css)**
+>
+* Modern, clean, white-space friendly
+* Kachel- oder Kartenlayout mit Hover-Effekt für die Kirchenliste
+* Header und Footer schlicht
+* Responsive Grid (2–3 Spalten auf Desktop, 1 Spalte auf Mobile)
+>
+## **🔷 JavaScript (script.js)**
+>
+* Optional, aber folgende Funktionen:
+>
+  * kleines Fade-In der Elemente beim Laden
+  * optional: smooth scrolling
+>
+## **🔷 Bilder**
+>
+Verwende nur Platzhalterbilder mit den Namen:
+>
+* `test1.jpg`
+* `test2.jpg`
+* `test3.jpg`
+>
+Verlinke sie überall korrekt, aber der Agent soll nur die **Dateistruktur vorbereiten**, keine echten Bilder generieren.
+>
+---
+>
+**Erstelle am Ende alle Dateien vollständig und gebe den kompletten Code aus.**
+
+
+
+https://www.youtube.com/watch?v=gDeIQrP2MiY
+
+https://www\.youtube\.com/embed/gDeIQrP2MiY
