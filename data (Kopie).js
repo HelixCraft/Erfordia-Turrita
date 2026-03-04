@@ -77,7 +77,7 @@ const churchData = {
   },
   johannisturm: {
     name: "Johannisturm",
-    infotext: `Der Johannesturm ist das einzige erhaltene Überbleibsel der ehemaligen Johanneskirche, die dem Heiligen Johannes dem Täufer geweiht war und erstmals 1131 urkundlich erwähnt wurde. Der letzte Kirchenbau, zu dem auch der heutige Turm gehört, entstand zwischen 1469 und 1486 im gotischen Stil. Mit der Einführung der Reformation im Jahr 1525 endete die Nutzung der Kirche als Gebetshaus, und nach verschiedenen Zweckentfremdungen wurde das Gebäude schließlich zwischen 1817 und 1819 abgerissen. Der Turm selbst blieb erhalten und steht heute an der Ecke der Johannesstraße zur Franckestraße – einem der ältesten Straßenzüge der Stadt. Er dient heute dem benachbarten Augustinerkloster als Glockenturm und läutet seine Glocken für das Kloster, das nur wenige Schritte entfernt liegt. Im Rahmen der „Erfordia turrita", dem Erfurter Tag der offenen Kirchtürme, kann der Turm gelegentlich auch von Besuchern bestiegen werden.`,
+    infotext: `Der Johannisturm ist der letzte Überrest der alten Johanniskirche. Heute dient er als Aussichtsturm.`,
     images: {
       banner: "images/kirchen-page-banner/Johannisturm_Erfurt_bild_5.jpg",
       side: [
@@ -87,27 +87,27 @@ const churchData = {
     },
     quiz: [
       {
-        question: "Wann wurde die Johanneskirche erstmals urkundlich erwähnt?",
+        question: "Wozu gehörte der Johannisturm ursprünglich?",
         answers: [
-          { text: "1131", isCorrect: true },
-          { text: "1325", isCorrect: false },
-          { text: "1469", isCorrect: false },
+          { text: "Zur Johanniskirche", isCorrect: true },
+          { text: "Zur Stadtmauer", isCorrect: false },
+          { text: "Zu einem Kloster", isCorrect: false },
         ],
       },
       {
-        question: "Wann endete die Nutzung der Johanneskirche als Gebetshaus?",
+        question: "Wie hoch ist der Turm ungefähr?",
         answers: [
-          { text: "Mit der Reformation 1525", isCorrect: true },
-          { text: "Nach dem Dreißigjährigen Krieg", isCorrect: false },
-          { text: "Beim Abriss 1819", isCorrect: false },
+          { text: "25 Meter", isCorrect: false },
+          { text: "45 Meter", isCorrect: true },
+          { text: "65 Meter", isCorrect: false },
         ],
       },
       {
-        question: "Welcher Einrichtung dient der Johannesturm heute als Glockenturm?",
+        question: "Was befindet sich heute im Turm?",
         answers: [
-          { text: "Dem Erfurter Dom", isCorrect: false },
-          { text: "Dem Augustinerkloster", isCorrect: true },
-          { text: "Der Kaufmannskirche", isCorrect: false },
+          { text: "Ein Café", isCorrect: false },
+          { text: "Ein Glockenspiel", isCorrect: true },
+          { text: "Ein Museum", isCorrect: false },
         ],
       },
     ],
@@ -116,7 +116,7 @@ const churchData = {
   // ... (Die restlichen Kirchen folgen demselben Muster)
   kaufmannskirche: {
     name: "Kaufmannskirche",
-    infotext: `Die Kaufmannskirche ist eine der bedeutendsten evangelischen Kirchen Erfurts und liegt am zentralen Anger, dem historischen Handelsplatz der Stadt. Bereits im 12. Jahrhundert als Kaufleutekirche gegründet, wurde sie im Laufe der Jahrhunderte mehrfach umgebaut und erweitert. Besondere historische Bedeutung hat die Kirche durch ihre Verbindung zu Johann Sebastian Bach: Seine Eltern heirateten hier im Jahr 1668. Im Inneren beeindruckt die Kirche mit einem reich verzierten Renaissanceportal sowie wertvollen historischen Kunstwerken. Die Kaufmannskirche hat zwei markante Türme, die das Stadtbild am Anger prägen. Heute ist sie ein aktives evangelisches Gotteshaus und wichtiger kultureller Ort in der Erfurter Altstadt.`,
+    infotext: "Platzhaltertext für die Kaufmannskirche.",
     images: {
       banner: "images/kirchen-page-banner/Kaufmannskirche_Erfurt_bild_4.jpg",
       side: [
@@ -231,7 +231,7 @@ const churchData = {
   },
   barfuesserkirche: {
     name: "Barfüßerkirche",
-    infotext: `Die Barfüßerkirche in Erfurt war eine mittelalterliche Klosterkirche des Franziskanerordens, der auch als Barfüßerorden bekannt ist. Die Kirche wurde im 13. Jahrhundert erbaut und gehörte zu einem bedeutenden Franziskanerkloster in der Stadt. Im Jahr 1945 wurde die Kirche durch Bombenangriffe schwer zerstört und ist seitdem als eindrucksvolle Ruine erhalten geblieben. Die erhaltenen Außenmauern und Gewölbereste zeugen noch heute von der einstigen Größe des gotischen Bauwerks. Die Ruine der Barfüßerkirche ist heute ein geschütztes Kulturdenkmal und ein stilles Mahnmal in der Erfurter Altstadt, das an die Zerstörungen des Zweiten Weltkriegs erinnert.`,
+    infotext: "Platzhaltertext für die Barfüßerkirche.",
     images: {
       banner: "images/kirchen-page-banner/Barfüßerkirche_Erfurt_bild_6.jpg",
       side: [
@@ -241,25 +241,25 @@ const churchData = {
     },
     quiz: [
       {
-        question: "Welchem Orden gehörte die Barfüßerkirche ursprünglich?",
-        answers: [
-          { text: "Den Dominikanern", isCorrect: false },
-          { text: "Den Franziskanern", isCorrect: true },
-          { text: "Den Benediktinern", isCorrect: false },
-        ],
-      },
-      {
         question: "In welchem Zustand befindet sich die Barfüßerkirche heute?",
         answers: [
           { text: "Vollständig restauriert", isCorrect: false },
           { text: "Als Ruine erhalten", isCorrect: true },
-          { text: "Vollständig abgerissen", isCorrect: false },
+          { text: "Abgerissen", isCorrect: false },
         ],
       },
       {
-        question: "Wann wurde die Barfüßerkirche zerstört?",
+        question: "Was war die Kirche ursprünglich?",
         answers: [
-          { text: "Im Dreißigjährigen Krieg", isCorrect: false },
+          { text: "Eine Klosterkirche der Franziskaner", isCorrect: true },
+          { text: "Eine private Kapelle", isCorrect: false },
+          { text: "Ein Getreidespeicher", isCorrect: false },
+        ],
+      },
+      {
+        question: "Wann wurde die Kirche zerstört?",
+        answers: [
+          { text: "Im Mittelalter", isCorrect: false },
           { text: "1945", isCorrect: true },
           { text: "1989", isCorrect: false },
         ],
@@ -269,7 +269,7 @@ const churchData = {
   },
   wigbertikirche: {
     name: "Wigbertikirche",
-    infotext: `Die Wigbertikirche ist eine der ältesten Kirchen Erfurts und geht auf das frühe Mittelalter zurück. Sie ist dem heiligen Wigbert geweiht, einem angelsächsischen Missionar, der im 8. Jahrhundert in der Region wirkte. Die Kirche befindet sich in der Erfurter Altstadt und ist ein Beispiel mittelalterlicher Sakralarchitektur im gotischen Stil. Im Laufe ihrer Geschichte wurde die Wigbertikirche mehrfach verändert und restauriert. Sie dient heute als evangelisches Gotteshaus und ist ein wichtiger Teil des reichen kirchlichen Erbes der Stadt Erfurt, die mit über 30 Kirchen und Klöstern im Mittelalter als „Stadt der Türme und Türme" bekannt war.`,
+    infotext: "Platzhaltertext für die Wigbertikirche.",
     images: {
       banner: "images/kirchen-page-banner/Wigbertikirche_Erfurt_bild_3.jpg",
       side: [
@@ -279,26 +279,26 @@ const churchData = {
     },
     quiz: [
       {
-        question: "Wem ist die Wigbertikirche geweiht?",
-        answers: [
-          { text: "Dem heiligen Martin", isCorrect: false },
-          { text: "Dem heiligen Wigbert", isCorrect: true },
-          { text: "Dem heiligen Andreas", isCorrect: false },
-        ],
-      },
-      {
         question: "Welchem Baustil gehört die Wigbertikirche an?",
         answers: [
+          { text: "Gotik", isCorrect: true },
           { text: "Barock", isCorrect: false },
           { text: "Romanik", isCorrect: false },
-          { text: "Gotik", isCorrect: true },
         ],
       },
       {
-        question: "Welche Funktion hat die Wigbertikirche heute?",
+        question: "In welchem Stadtteil liegt die Wigbertikirche?",
+        answers: [
+          { text: "Altstadt", isCorrect: true },
+          { text: "Andreasvorstadt", isCorrect: false },
+          { text: "Brühlervorstadt", isCorrect: false },
+        ],
+      },
+      {
+        question: "Welche Funktion hat die Kirche heute?",
         answers: [
           { text: "Museum", isCorrect: false },
-          { text: "Evangelisches Gotteshaus", isCorrect: true },
+          { text: "Gotteshaus", isCorrect: true },
           { text: "Konzerthalle", isCorrect: false },
         ],
       },
